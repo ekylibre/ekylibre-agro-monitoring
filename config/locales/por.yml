@@ -1,0 +1,23 @@
+---
+por:
+  labels:
+    agro_monitoring_short_description: Imagens de satélite e índices de vegetação (NDVI)
+      para parcelas
+    agro_monitoring_long_description: A Agromonitoring fornece índices de vegetação (NDVI)
+      e dados de solo a partir de imagens de satélite Landsat-8 e Sentinel-2 em zonas
+      cultiváveis
+    agro_monitoring_url: https://agromonitoring.com
+    agro_monitoring_api_key: Chave API Agromonitoring
+    agro_monitoring_api_key_hint: Obtenha em https://home.agromonitoring.com/users/api-keys
+  notifications:
+    agro_monitoring_monthly_quota_reached: "Quota mensal Agromonitoring atingida (10 polígonos/mês
+      no plano gratuito). As parcelas restantes serão sincronizadas no próximo mês."
+    agro_monitoring_geometry_update_deferred: "Atualização da geometria da parcela %{parcel}
+      adiada: quota mensal Agromonitoring atingida."
+    agro_monitoring_satellite_rate_limited: "Limite de taxa Agromonitoring atingido (60 chamadas/min).
+      A importação será retomada automaticamente após uma pausa."
+    agro_monitoring_sync_started: "Sincronização Agromonitoring em andamento. Você receberá
+      uma notificação assim que estiver concluída."
+    agro_monitoring_sync_succeeded: "Sincronização Agromonitoring concluída com sucesso."
+    agro_monitoring_sync_failed: "Ocorreu um erro durante a sincronização Agromonitoring:
+      %{message}"

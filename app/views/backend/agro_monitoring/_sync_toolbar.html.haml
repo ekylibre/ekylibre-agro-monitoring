@@ -1,0 +1,3 @@
+- agro_monitoring_integration = Integration.find_by(nature: 'agro_monitoring').present?
+- main_toolbar do |t|
+  = link_to :agro_monitoring_synchronize.tl, perform_agro_monitoring_agro_monitoring_synchronization_path, class: 'btn btn-default icn btn-load update-job', disabled: !agro_monitoring_integration

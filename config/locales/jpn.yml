@@ -1,0 +1,15 @@
+---
+jpn:
+  labels:
+    agro_monitoring_short_description: "圃場の衛星画像と植生指数（NDVI）"
+    agro_monitoring_long_description: "Agromonitoringは、Landsat-8およびSentinel-2の衛星画像から、耕作可能ゾーンの植生指数（NDVI）と土壌データを提供します"
+    agro_monitoring_url: https://agromonitoring.com
+    agro_monitoring_api_key: "Agromonitoring APIキー"
+    agro_monitoring_api_key_hint: "https://home.agromonitoring.com/users/api-keys から取得してください"
+  notifications:
+    agro_monitoring_monthly_quota_reached: "Agromonitoringの月間クォータに達しました（無料プランでは月10ポリゴンまで）。残りの圃場は翌月に同期されます。"
+    agro_monitoring_geometry_update_deferred: "圃場 %{parcel} のジオメトリ更新を延期しました：Agromonitoringの月間クォータに達しました。"
+    agro_monitoring_satellite_rate_limited: "Agromonitoringのレート制限に達しました（60コール/分）。一時停止後、インポートは自動的に再開されます。"
+    agro_monitoring_sync_started: "Agromonitoringの同期が進行中です。完了次第、通知が届きます。"
+    agro_monitoring_sync_succeeded: "Agromonitoringの同期が正常に完了しました。"
+    agro_monitoring_sync_failed: "Agromonitoringの同期中にエラーが発生しました：%{message}"

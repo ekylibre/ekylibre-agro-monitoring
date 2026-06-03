@@ -1,0 +1,16 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+/Gemfile.lock
+
+# Remote rubocop configurations
+/.rubocop-*
+
+test/cassettes/
+.env

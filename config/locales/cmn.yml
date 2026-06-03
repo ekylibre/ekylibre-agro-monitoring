@@ -1,0 +1,15 @@
+---
+cmn:
+  labels:
+    agro_monitoring_short_description: "地块卫星图像和植被指数（NDVI）"
+    agro_monitoring_long_description: "Agromonitoring 基于 Landsat-8 和 Sentinel-2 卫星图像，为可耕作区域提供植被指数（NDVI）和土壤数据"
+    agro_monitoring_url: https://agromonitoring.com
+    agro_monitoring_api_key: "Agromonitoring API 密钥"
+    agro_monitoring_api_key_hint: "请前往 https://home.agromonitoring.com/users/api-keys 获取"
+  notifications:
+    agro_monitoring_monthly_quota_reached: "已达到 Agromonitoring 每月配额（免费计划为 10 个多边形/月）。剩余地块将在下个月同步。"
+    agro_monitoring_geometry_update_deferred: "地块 %{parcel} 的几何更新已延迟：已达到 Agromonitoring 每月配额。"
+    agro_monitoring_satellite_rate_limited: "已达到 Agromonitoring 速率限制（60 次调用/分钟）。暂停后将自动恢复导入。"
+    agro_monitoring_sync_started: "Agromonitoring 同步进行中。完成后您将收到通知。"
+    agro_monitoring_sync_succeeded: "Agromonitoring 同步已成功完成。"
+    agro_monitoring_sync_failed: "Agromonitoring 同步期间发生错误：%{message}"

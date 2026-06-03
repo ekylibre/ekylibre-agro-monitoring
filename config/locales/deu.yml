@@ -1,0 +1,23 @@
+---
+deu:
+  labels:
+    agro_monitoring_short_description: Satellitenbilder und Vegetationsindizes (NDVI)
+      für Parzellen
+    agro_monitoring_long_description: Agromonitoring liefert Vegetationsindizes (NDVI)
+      und Bodendaten aus Landsat-8- und Sentinel-2-Satellitenbildern für Anbauflächen
+    agro_monitoring_url: https://agromonitoring.com
+    agro_monitoring_api_key: Agromonitoring-API-Schlüssel
+    agro_monitoring_api_key_hint: Abrufen unter https://home.agromonitoring.com/users/api-keys
+  notifications:
+    agro_monitoring_monthly_quota_reached: "Monatliches Agromonitoring-Kontingent erreicht
+      (10 Polygone/Monat im kostenlosen Plan). Verbleibende Parzellen werden im nächsten
+      Monat synchronisiert."
+    agro_monitoring_geometry_update_deferred: "Geometrieaktualisierung für Parzelle %{parcel}
+      verschoben: Monatliches Agromonitoring-Kontingent erreicht."
+    agro_monitoring_satellite_rate_limited: "Agromonitoring-Ratenlimit erreicht (60 Aufrufe/Min).
+      Der Import wird nach einer Pause automatisch fortgesetzt."
+    agro_monitoring_sync_started: "Agromonitoring-Synchronisierung läuft. Sie erhalten
+      eine Benachrichtigung, sobald sie abgeschlossen ist."
+    agro_monitoring_sync_succeeded: "Agromonitoring-Synchronisierung erfolgreich abgeschlossen."
+    agro_monitoring_sync_failed: "Bei der Agromonitoring-Synchronisierung ist ein Fehler
+      aufgetreten: %{message}"

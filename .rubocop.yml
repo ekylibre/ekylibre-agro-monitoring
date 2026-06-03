@@ -1,0 +1,6 @@
+inherit_from: https://gitlab.com/ekylibre/tools/rubocop/-/raw/0.2.0/.rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - "bin/**/*"

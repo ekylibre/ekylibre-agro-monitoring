@@ -1,0 +1,21 @@
+---
+arb:
+  labels:
+    agro_monitoring_short_description: "صور الأقمار الصناعية ومؤشرات الغطاء النباتي
+      (NDVI) للقطع"
+    agro_monitoring_long_description: "توفر Agromonitoring مؤشرات الغطاء النباتي (NDVI)
+      وبيانات التربة من صور الأقمار الصناعية Landsat-8 وSentinel-2 للمناطق الصالحة للزراعة"
+    agro_monitoring_url: https://agromonitoring.com
+    agro_monitoring_api_key: "مفتاح API لـ Agromonitoring"
+    agro_monitoring_api_key_hint: "احصل عليه من https://home.agromonitoring.com/users/api-keys"
+  notifications:
+    agro_monitoring_monthly_quota_reached: "تم الوصول إلى الحصة الشهرية لـ Agromonitoring
+      (10 مضلعات شهريًا في الخطة المجانية). ستتم مزامنة القطع المتبقية الشهر القادم."
+    agro_monitoring_geometry_update_deferred: "تم تأجيل تحديث هندسة القطعة %{parcel}:
+      تم الوصول إلى الحصة الشهرية لـ Agromonitoring."
+    agro_monitoring_satellite_rate_limited: "تم الوصول إلى حد معدل Agromonitoring (60 طلبًا/دقيقة).
+      سيتم استئناف الاستيراد تلقائيًا بعد توقف مؤقت."
+    agro_monitoring_sync_started: "مزامنة Agromonitoring قيد التقدم. ستتلقى إشعارًا
+      عند اكتمالها."
+    agro_monitoring_sync_succeeded: "تمت مزامنة Agromonitoring بنجاح."
+    agro_monitoring_sync_failed: "حدث خطأ أثناء مزامنة Agromonitoring: %{message}"
