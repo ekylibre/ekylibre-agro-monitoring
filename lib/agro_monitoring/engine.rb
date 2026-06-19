@@ -2,7 +2,7 @@ module AgroMonitoring
   class Engine < ::Rails::Engine
 
     initializer 'agro_monitoring.assets.precompile' do |app|
-      app.config.assets.precompile += %w[*.svg *.png]
+      app.config.assets.precompile += %w[integrations/agro_monitoring.png]
     end
 
     initializer :i18n do |app|
